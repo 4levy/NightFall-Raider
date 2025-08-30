@@ -1,4 +1,5 @@
 # fucker free shit stuff
+# Under the MIT License
 
 
 
@@ -3277,4 +3278,5 @@ if __name__ == "__main__":
     resize_console(100, 30)
     clear_console()
     rename_console()
+
     MAINLOADER()
