@@ -29,11 +29,6 @@ import atexit
 import base64
 
 
-spam_threads = []
-spam_active = False
-typing_threads = []
-typing_active = False
-
 # F 
 def random_string(length=8, chars=None):
     if chars is None:
@@ -51,6 +46,11 @@ CLIENT_ID = '1408702513619669082'
 IMAGE_URL = [ # Support gif btw
     "https://i.postimg.cc/cJ45Kqn0/1b60e2fd40d814ac5dd08ceb6bd5f933(1).png"
 ]
+spam_threads = []
+spam_active = False
+typing_threads = []
+typing_active = False
+
 
 
 
@@ -3280,3 +3280,4 @@ if __name__ == "__main__":
     rename_console()
 
     MAINLOADER()
+
