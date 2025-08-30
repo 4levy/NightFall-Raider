@@ -52,8 +52,6 @@ typing_threads = []
 typing_active = False
 
 
-
-
 # Art
 
 MAINBANNER = f""" 
@@ -3280,4 +3278,5 @@ if __name__ == "__main__":
     rename_console()
 
     MAINLOADER()
+
 
